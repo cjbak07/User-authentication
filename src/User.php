@@ -57,7 +57,8 @@ class User{
 
     public function resetPassword(int $id, string $newPassword): string{
         
-        if (!validate::passwordValidate($newPassword)) return "Senha fraca";
+        if (!validate::passwordValidate($newPassword)) 
+            return "Senha fraca";
 
         foreach ($this->users as &$user){
             if ($user['id'] === $id){
