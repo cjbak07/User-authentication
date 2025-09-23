@@ -26,6 +26,11 @@ class User{
         if (!validate::emailValidate($email)) return "E-mail inválido";
         if (!validate::passwordValidate($password)) return "Senha fraca";
 
+        foreach ($this->users as $user){
+            if ($user['email'] === $email){
+                return "E-mail já cadastrado";
+            }
+        }
         
         $id = count($this->users) + 1;
         $this->users[] = [
