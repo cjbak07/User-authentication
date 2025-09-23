@@ -25,7 +25,7 @@ User-Authentication/
 1. Copie a pasta `User-Authentication` para o diretório `htdocs` do XAMPP (ou equivalente).
 2. Inicie o Apache no painel de controle do XAMPP.
 3. Abra o navegador e acesse:
-http://localhost/ProjetoFinalP1/src/index.php
+http://localhost/ProjetoFinalP1
 
 ---
 
