@@ -11,6 +11,7 @@ Projeto de gerenciamento de usuários em PHP, onde é possível **cadastrar usu�
 ---
 
 ## Estrutura de Pastas
+''
 User-Authentication/
 ├─ src/
 │ ├─ User.php # Classe do usuário
@@ -18,6 +19,7 @@ User-Authentication/
 │ └─ index.php # Exemplo de uso
 ├─ docs/
   └─ README.md
+  ''
 
 ---
 
