@@ -19,7 +19,7 @@ User-Authentication/
 │ └─ index.php # Exemplo de uso
 ├─ docs/
   └─ README.md
-
+```
 ---
 
 ## Instruções de Execução (XAMPP / Servidor Local)
