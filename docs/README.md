@@ -81,5 +81,3 @@ echo $user->login("maria@emal.com", "Errada123") . "<br>";
 // Redefinir senha
 echo $user->resetPassword(1, "NovaSenha1") . "<br>";
 echo $user->login("maria@email.com", "NovaSenha1") . "<br>";
-markdown
-Copiar código
